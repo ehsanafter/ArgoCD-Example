@@ -3,6 +3,8 @@ kind: ConfigMap
 metadata:
   name: example-redis-config
   namespace: argocd
+  annotations:
+    avp.kubernetes.io/path: test/data/first/argocd/test
 data:
   redis-config: |
     maxmemory 2mb
