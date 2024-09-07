@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: example-redis-config
+  name: example-redis-config2
   namespace: argocd
   annotations:
     avp.kubernetes.io/path: test/data/first/argocd/test
